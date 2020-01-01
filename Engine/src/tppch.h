@@ -12,6 +12,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include <ctime>
+
 //#include "Hazel/Log.h"
 
 #ifdef TP_PLATFORM_WINDOWS

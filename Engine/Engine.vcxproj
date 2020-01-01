@@ -153,10 +153,14 @@
     <ClInclude Include="src\Tempus\Application.h" />
     <ClInclude Include="src\Tempus\Core.h" />
     <ClInclude Include="src\Tempus\EntryPoint.h" />
+    <ClInclude Include="src\Tempus\Log.h" />
+    <ClInclude Include="src\Tempus\Logger\Logger.h" />
     <ClInclude Include="src\tppch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Tempus\Application.cpp" />
+    <ClCompile Include="src\Tempus\Log.cpp" />
+    <ClCompile Include="src\Tempus\Logger\Logger.cpp" />
     <ClCompile Include="src\tppch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>

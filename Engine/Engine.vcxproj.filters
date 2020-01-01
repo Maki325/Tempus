@@ -4,6 +4,9 @@
     <Filter Include="Tempus">
       <UniqueIdentifier>{C3B531D3-AF57-5CA9-9812-70FD8453E3F9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tempus\Logger">
+      <UniqueIdentifier>{3252058F-9E12-81C5-674D-CA42D3CCC5A1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Tempus.h" />
@@ -16,11 +19,23 @@
     <ClInclude Include="src\Tempus\EntryPoint.h">
       <Filter>Tempus</Filter>
     </ClInclude>
+    <ClInclude Include="src\Tempus\Log.h">
+      <Filter>Tempus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tempus\Logger\Logger.h">
+      <Filter>Tempus\Logger</Filter>
+    </ClInclude>
     <ClInclude Include="src\tppch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Tempus\Application.cpp">
       <Filter>Tempus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tempus\Log.cpp">
+      <Filter>Tempus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tempus\Logger\Logger.cpp">
+      <Filter>Tempus\Logger</Filter>
     </ClCompile>
     <ClCompile Include="src\tppch.cpp" />
   </ItemGroup>
